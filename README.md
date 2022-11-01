@@ -16,7 +16,7 @@
 
 Creating a package.json file:
 ``` bash
-$ npm init --yes
+$ npm init --y
 ```
 Install Express, Mongoose & EJS with this command:
 ``` bash

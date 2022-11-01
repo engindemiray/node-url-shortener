@@ -4,7 +4,6 @@
 
 ## Tech Stack
 
-- JavaScript
 - Node.js
 - Express.js
 - EJS

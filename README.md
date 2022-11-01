@@ -18,7 +18,7 @@ Creating a package.json file:
 ``` bash
 $ npm init --yes
 ```
-Install Express, Socket.io & EJS with this command:
+Install Express, Mongoose & EJS with this command:
 ``` bash
 $ npm i express mongoose ejs
 ```
@@ -35,11 +35,11 @@ and is used to translate between objects in code and the representation of those
 
 ![mongoose](https://user-images.githubusercontent.com/91262816/198711175-4abef4cd-0064-4d75-a5f7-35d2972a9b12.jpg)
 
-You can connect to MongoDB with the mongoose.connect() method.
+You can connect to MongoDB with the `mongoose.connect()` method.
 ```js
 mongoose.connect('mongodb://localhost:27017/myapp');
 ```
-You can also specify several more parameters in the uri:
+You can also specify several more parameters in the `uri`:
 ```js
 mongoose.connect('mongodb://username:password@host:port/database?options...');
 ```

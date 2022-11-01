@@ -2,7 +2,7 @@
 
 ![url-shortener](https://user-images.githubusercontent.com/91262816/198710605-cb02d665-f5ce-4120-b124-946ddb967bca.png)
 
-## Languages & Tools
+## Tech Stack
 
 - JavaScript
 - Node.js
@@ -10,17 +10,21 @@
 - EJS
 - Bootstrap
 - MongoDB
+- Mongoose
 
 ## Installation
-Run these commands in Terminal.
 
-To install package.json:
+Creating a package.json file:
 ``` bash
 $ npm init --yes
 ```
-To install Express & Mongoose & EJS
+Install Express, Socket.io & EJS with this command:
 ``` bash
 $ npm i express mongoose ejs
+```
+Run the app with this command:
+``` bash
+$ npm run devStart
 ```
 
 ## MongoDB & Mongoose
@@ -31,15 +35,11 @@ and is used to translate between objects in code and the representation of those
 
 ![mongoose](https://user-images.githubusercontent.com/91262816/198711175-4abef4cd-0064-4d75-a5f7-35d2972a9b12.jpg)
 
-Include Mongoose in our project:
+You can connect to MongoDB with the mongoose.connect() method.
 ```js
-const mongoose = require('mongoose');
-
-main().catch(err => console.log(err));
-
-async function main() {
-  await mongoose.connect('mongodb://localhost:27017/test');
-  
-  // use `await mongoose.connect('mongodb://user:password@localhost:27017/test');`
-}
+mongoose.connect('mongodb://localhost:27017/myapp');
+```
+You can also specify several more parameters in the uri:
+```js
+mongoose.connect('mongodb://username:password@host:port/database?options...');
 ```

@@ -10,6 +10,7 @@
 - EJS
 - Bootstrap
 - MongoDB
+- Mongoose
 
 ## Installation
 

@@ -4,6 +4,7 @@
 
 ## Tech Stack
 
+- JavaScript
 - Node.js
 - Express.js
 - EJS
@@ -17,7 +18,7 @@ Creating a package.json file:
 ``` bash
 $ npm init --y
 ```
-Install Express, Mongoose & EJS with this command:
+Install Express, Mongoose and EJS with this command:
 ``` bash
 $ npm i express mongoose ejs
 ```

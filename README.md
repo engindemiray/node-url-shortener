@@ -27,7 +27,7 @@ Run the app with this command:
 $ npm run devStart
 ```
 
-## MongoDB & Mongoose
+## MongoDB Connection with Mongoose
 
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js.
 It manages relationships between data, provides schema validation, 

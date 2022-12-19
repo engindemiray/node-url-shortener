@@ -14,18 +14,15 @@
 
 ## Installation
 
-Creating a package.json file:
+Install npm packages:
 ``` bash
-$ npm init --y
-```
-Install Express, Mongoose and EJS with this command:
-``` bash
-$ npm i express mongoose ejs
+$ npm install
 ```
 Run the app with this command:
 ``` bash
-$ npm run devStart
+$ nodemon server.js
 ```
+You may visit the application on browser with the URL: http://localhost:5000
 
 ## MongoDB Connection with Mongoose
 

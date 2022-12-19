@@ -1,6 +1,6 @@
 # URL Shortener
 
-![url-shortener](https://user-images.githubusercontent.com/91262816/198710605-cb02d665-f5ce-4120-b124-946ddb967bca.png)
+![Ekran görüntüsü_20221219_1803141](https://user-images.githubusercontent.com/91262816/208504249-d120b6ae-b19e-40f1-b4f1-e10d3c87db1b.png)
 
 ## Tech Stack
 
